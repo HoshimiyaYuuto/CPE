@@ -5,6 +5,6 @@ using namespace std;
 int main() {
     long long a, b;
     while(cin >> a >> b) {
-        cout << abs(a-b) << endl;       //題目只要找插值
+        cout << abs(a-b) << endl;       //題目只要找差值
     }
 }
