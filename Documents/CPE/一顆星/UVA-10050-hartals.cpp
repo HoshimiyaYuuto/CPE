@@ -1,4 +1,4 @@
-//此題目的是要找給定P個數字，它們的值在N內卡位的總數，要排除特定性質的數字
+//此題目的意思是要找給定P個數字，它們的值在N內卡位的總數，要排除特定性質的數字
 #include <iostream>
 #include <vector>
 using namespace std;
