@@ -1,6 +1,5 @@
-//!!等待VJ復活才能提交:(
 //題目給定數字0~9和大寫字母A~Z個別字元的印出費用，以及要印出的十進制query，判斷轉成哪個進制的印出費用總和最便宜
-//此題judge系統輸出格式很刁鑽
+//此題judge系統輸出格式要求很刁鑽
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -9,7 +8,7 @@ int main(){
     int c;  //case數
     if(!(cin >> c)) return 0;
     for(int i=1;i<=c;i++){
-        if(c>1) cout << endl;   //此題最後不能多空行，要小心
+        if(i>1) cout << endl;   //此題最後不能多空行，要小心
         cout << "Case "<< i << ":" << endl;
         int qNum;   //query數
         vector<int> co(36);  //存各個字元的cost     
